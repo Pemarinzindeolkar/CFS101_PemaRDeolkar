@@ -1,0 +1,11 @@
+//Convert temperature from Celsius to Fahrenheit.
+//Ask for user input
+
+USER INPUT = REQUIRED TEMPERATURE 
+
+//DEFINE CONVERSION 
+// celsuis * 9/5 + 32 = Fahrenheit
+Fahrenheit = ENTERED TEMPERATURE * 1.8
+F2 = Fahrenheit + 32
+
+PRINT F2

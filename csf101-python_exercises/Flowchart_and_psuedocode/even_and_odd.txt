@@ -1,0 +1,17 @@
+// Determine if a number is even or odd.
+// Ask for the required number
+
+USER INPUT = ENTER number
+
+//Define odd and even number
+
+ODD = if number when divided by 2 is NOT integer 
+EVEN = if number when divided by 2 is a integer 
+
+// check if number is even or odd
+
+IF NUMBER IS EQUAL TO ODD, 
+    PRINT ODD
+ELSE
+    PRINT EVEN
+    
