@@ -5,12 +5,12 @@ USER INPUT = ENTER number
 
 //Define odd and even number
 
-ODD = if number when divided by 2 is NOT integer 
-EVEN = if number when divided by 2 is a integer 
+ODD = if number when divisible by 2 
+EVEN = if number when not divisible  by 2 
 
 // check if number is even or odd
 
-IF NUMBER IS EQUAL TO ODD, 
+IF NUMBER IS ODD, 
     PRINT ODD
 ELSE
     PRINT EVEN
