@@ -1,0 +1,1 @@
+<img src="Images/output.png" alt="Output Screenshot" width="200"> <br>
