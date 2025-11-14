@@ -1,0 +1,9 @@
+
+In this practical, I explored how different search algorithms work and compared their performance by measuring indices found, number of comparisons, and run time. I applied linear search, binary search, binary search for insertion point, and jump search on lists of various sizes and values, observing both small and large datasets.<br>
+
+Working with linear search showed how it checks each element one by one, which led to many comparisons, especially for large lists. Binary search and jump search required the list to be sorted, but both completed much faster and with fewer comparisons. For example, searching for a value in a large sorted list with binary search took only a tiny fraction of a second and very few comparisons, while linear search required checking every item. Jump search performed in between the two, better than linear search but not quite as good as binary search.<br>
+
+Through this comparison, I learned that for large, sorted data, binary search is the best option due to its logarithmic time complexity, while jump search can also help when binary search is expensive or not available. I also discovered that while linear search is easy to use for any list and can find all occurrences of a value, it becomes inefficient as list size grows. Seeing the time and comparison counts printed for each algorithm clarified these differences.<br>
+
+One challenge I faced was making sure my list was sorted before using binary and jump search, since both need sorted input to work correctly. Another challenge was tracking and comparing how many steps or comparisons each algorithm used, but the output summaries and printed steps helped a lot. Overall, the practical made me appreciate the importance of picking the right algorithm for the size and type of data, and showed clearly why algorithms like binary search are so useful for big datasets.<br>
+
